@@ -480,13 +480,31 @@ body {
     border: 0;
 }
 
+.carousel-caption {
+    text-align: left;
+}
 
 .item {
     height: 450px;
     width: 100%;
-    background: url('../img/services/stock1.jpg') no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.item1 {
+    background: url('../img/services/stock1.jpg') no-repeat center center fixed;
+}
+
+.item2 {
+    background: url('../img/services/stock1.jpg') no-repeat center center fixed;
+}
+
+.item3 {
+    background: url('../img/services/stock1.jpg') no-repeat center center fixed;
+}
+
+.form-control {
+    font-size: 1.25em;
 }
